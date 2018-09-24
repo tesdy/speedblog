@@ -13,13 +13,15 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
     switch ($book->type) {
         case 1:
             // Manga
-            $parallaximg = 'mangaherosreduce.jpeg';
+            $parallaximg = 'type1-Manga.jpeg';
             break;
         case 2:
             // Comic
+            $parallaximg = 'type2-Comic2.jpg';
             break;
         case 3:
             // BD
+            $parallaximg = 'type3-BDs.jpg';
             break;
         default:
             $parallaximg = 'bulles-white.jpg';
@@ -33,9 +35,9 @@ if(isset($_GET['id']) && is_numeric($_GET['id'])) {
 
 ?>
     </div> <!-- Close the Body>Container tag -->
-    <div class="parallax-container">
+    <div class="parallax-container" style="margin-top: -40px">
         <div class="parallax">
-            <img src="web/<?= $parallaximg ?>" alt="HerosMangas">
+            <img src="web/<?= $parallaximg ?>" alt="YourHeros">
         </div>
     </div>
 

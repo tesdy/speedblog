@@ -12,11 +12,8 @@ function get_book($id) {
            content,
            image,
            editeddate, 
-           type,
-           a.name as aName 
+           type
            FROM books as b
-           LEFT JOIN authors as a
-           ON b.authorid = a.id
            WHERE b.id = :id");
         $req->bindParam(':id', $id, PDO::PARAM_INT);
         $req->execute();

@@ -1,10 +1,5 @@
-nav ul li.active {
-    background-color: #f9fbe7;
-}
+/* Typographie Begin */
 
-a , a:hover , a:visited, a:active {
-    color: #e9800d;
-}
 @font-face {
     font-family: "GROBOLD";
     src: url('../fonts/GROBOLD.ttf');
@@ -13,13 +8,6 @@ a , a:hover , a:visited, a:active {
 @font-face {
     font-family: "SayanSans";
     src: url('../fonts/Saiyan-Sans.ttf');
-}
-
-
-body {
-    font-family: GROBOLD, Georgia, serif;
-    color: #03a9f4;
-    background-color: #90a4ae;
 }
 
 h1 {
@@ -34,27 +22,55 @@ h5  {
     color: #0288cd;
 }
 
-a.brand-logo {
-    font-family: SayanSans, Georgia, serif;
-    padding-left: 20px;
-    padding-top: 5px;
-    font-size: 60px;
-    -webkit-text-stroke: 3px #000000;
-    animation: LogoAnime 2s infinite;
-}
+/* End typographie */
 
-.nav-wrapper {
-    background-color: #8d8d8d;
+/* Coloration Begin */
+
+body {
+    font-family: GROBOLD, Georgia, serif;
+    color: #03a9f4;
+    background-color: #2e3437;
 }
 
 .yellowtxt {
     color: yellow;
 }
 
-a>span.redtxt {
+.redtxt {
     color: red;
 }
 
+input#search-query {
+    background-color: #0D47A1;
+}
+
+input#search-query:checked {
+    background-color: #a10004;
+}
+
+input::placeholder {
+    color: rgb(186, 186, 186);
+}
+
+/* Coloration End */
+
+
+/* Logo Begin */
+nav .brand-logo {
+    /*padding-left: 50px !important;*/
+    font-size: 50px;
+    -webkit-text-stroke: 3px #000000;
+    animation: LogoAnime 2s infinite;
+}
+
+@keyframes LogoAnime{
+    0%{opacity: 1;}
+    50%{opacity: 0;}
+    100%{opacity: 1;}
+}
+/* Logo End */
+
+/* Cards : List of Books */
 .card .card-action {
     border-top: 0;
     padding: 50px 0;
@@ -70,31 +86,23 @@ a>span.redtxt {
     min-height: 155px;
 }
 
+/* Cards End */
+
 
 body>div.container {
-    margin-top: 50px;
-    margin-bottom: 100px;
+    margin-top: 10px;
+    margin-bottom: 50px;
     border-radius: 2px;
     box-shadow: 0 2px 2px 0 rgba(3, 0, 76, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
-.parallax-container {
-    margin-top: -100px;
-}
-
+/* Image Home */
 #marvel_home {
     width:100%;
     height:100%;
     display:block;
 }
 
-input#search-query {
-    background-color: #0D47A1;
-}
-
-input#search-query:checked {
-    background-color: #a10004;
-}
 
 input.blue.lighten-3 {
     font-family: GROBOLD, Georgia, serif;
@@ -116,13 +124,34 @@ input.blue.lighten-3 {
     box-sizing: inherit;
 }
 
+/* Navbar search */
+@media only screen and (max-width: 600px) {
+    .searchbarfix{
+        height: 56px !important;
 
-input::placeholder {
-    color: rgb(186, 186, 186);
+
+    }
+}
+@media only screen and (min-width: 601px) {
+    .searchbarfix{
+        height: 64px !important;
+
+    }
+}
+.navfix {
+    position:relative;
+    margin-right: 0;
 }
 
-@keyframes LogoAnime{
-    0%{opacity: 1;}
-    50%{opacity: 0;}
-    100%{opacity: 1;}
+.navfix2 {
+    position:absolute;
+}
+
+#AlertDiv {
+    margin-top: 50px;
+}
+
+.padhome {
+    box-shadow: 3px 3px 5px 0 rgba(255, 255, 255, 0.87);
+    box-sizing: inherit;
 }

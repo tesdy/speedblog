@@ -2,7 +2,7 @@
 
 <?php
 
-    $books = get_books(1);
+$books = get_books();
 
 if(!empty($_POST['searchinlist'])) {
     // vérifier la recherche : pas de caractères spéciaux
@@ -13,38 +13,47 @@ if(!empty($_POST['searchinlist'])) {
     <nav id="searchform">
         <div class="nav-wrapper">
             <div class="col s12">
-                <div class="padleft20">
-                    <a href="index.php" class="breadcrumb">home</a>
-                    <a href="?page=list" class="breadcrumb active" >Liste</a>
+                <div class="teal lighten-2 padleft20">
+                    <a href="index.php" class="breadcrumb">Accueil</a>
+                    <a class="breadcrumb" >Liste</a>
                 </div>
             </div>
         </div>
     </nav>
-    <nav>
-        <div class="nav-wrapper">
-            <form method="post" action="#">
-                <div class="input-field">
-                    <input id="search" type="search" name="searchinlist" placeholder="Recherche rapide" class="blue lighten-3" style="color: #8d8d8d">
-                    <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                    <i class="material-icons">close</i>
+    <div class="row">
+        <div class="col s6" style="padding: 0; border-right: groove 2px #4db6ac">
+            <nav>
+                <div class="nav-wrapper">
+                    <form method="post" action="#">
+                        <div class="input-field">
+                            <input id="search" type="search" name="searchinlist" class="blue lighten-3" >
+                            <label class="label-icon" for="search"><i class="material-icons">search</i></label>
+                            <i class="material-icons">close</i>
+                        </div>
+                    </form>
                 </div>
-            </form>
+            </nav>
         </div>
-    </nav>
-
-    <div class="row" style="margin-bottom: -10px; padding-bottom: -10px">
-        <div class="input-field col s4 offset-s8">
-
-            <select id="select-order">
-                <option value="" disabled selected>Tri par :</option>
-                <option value="nameasc">Titre : A -> Z</option>
-                <option value="namedesc">Titre : Z -> A</option>
-                <option value="dateasc">Parution : Ancien -> Recent</option>
-                <option value="datedesc">Parution : Recent -> Ancien</option>
-            </select>
-            <label></label>
+        <div class="col s6" style="padding: 0">
+            <nav>
+                <div class="nav-wrapper blue lighten-3">
+                    <div class="input-field col s6 offset-s6">
+                        <select id="select-order" >
+                            <option value="" disabled selected>Tri par :</option>
+                            <option value="nameasc">Titre : A -> Z</option>
+                            <option value="namedesc">Titre : Z -> A</option>
+                            <option value="dateasc">Parution : Ancien -> Recent</option>
+                            <option value="datedesc">Parution : Recent -> Ancien</option>
+                        </select>
+                        <label></label>
+                    </div>
+                </div>
+            </nav>
         </div>
     </div>
+
+
+
 
 
     <div class="bookcard row">
@@ -62,12 +71,16 @@ if(!empty($_POST['searchinlist'])) {
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4"><i class="material-icons right" title="Lecture rapide">more_vert</i></span>
                     </div>
-                    <div class="card-reveal" style="resize: both">
-                        <span class="card-title ltdtxt">Résumé : <br> <?= nl2br($book->content) ?>
+                    <div class="card-reveal">
+                        <span class="card-title">Résumé :
                             <i class="material-icons right">close</i></span>
+                        <p><?= nl2br($book->content) ?></p>
+                        <span class="card-title">
+                            <i class="material-icons right">close</i>
+                        </span>
                     </div>
                     <div class="card-action">
-                        <a href="?page=post&id=<?= $book->id ?>">Voir plus</a>
+                        <a href="?page=book&id=<?= $book->id ?>">Voir plus</a>
                     </div>
                 </div>
             </div>

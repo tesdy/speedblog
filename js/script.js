@@ -1,6 +1,42 @@
 $(document).ready(function(){
     $('select').formSelect();
     $('.sidenav').sidenav();
+
+    // Search field in NavBar actions :
+    var trig = 1;
+// fix chrome
+    var mynavsearch = $('#mynavsearch');
+
+    mynavsearch.addClass('searchbarfix');
+    // Au focus sur le champ search de la navbar : Agrandissement de 150
+    mynavsearch.click(function(e) {
+        // handle other nav elements visibility here to avoid push down
+        $('.search-hide').addClass('hide');
+        if (trig === 1){
+            $('#navfix2').animate({
+                width: '+=150',
+                marginRight: 0
+            }, 400);
+
+            trig ++;
+        }
+
+    });
+
+    // au retrait du focus sur le champ search de la navbar : retour à taille normale
+    mynavsearch.focusout(function() {
+
+        $('#navfix2').animate({
+            width: '-=150'
+        }, 400);
+        trig = trig - 1;
+        //handle other nav elements visibility first to avoid push down
+        $('.search-hide').removeClass('hide');
+
+
+
+    });
+
 });
 
 $(document).ready(function () {

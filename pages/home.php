@@ -2,7 +2,7 @@
 
 <?php
 
-$last_books = getLastBooks();
+$last_books = get_books();
 
 
 
@@ -23,6 +23,11 @@ $last_books = getLastBooks();
                 Ici se trouvera les derniers Upload (envois), des dossiers sur les auteurs, les héros, les projets en cours,
                 éventuellement des reportages sur les salons auxquels j'arriverai à participer mais aussi pourquoi pas vos visites également.
                 Bref, le site n'en est qu'à ses balbutiements.
+                Huic Arabia est conserta, ex alio latere Nabataeis contigua; opima varietate conmerciorum castrisque oppleta validis et castellis, quae ad repellendos gentium vicinarum excursus sollicitudo pervigil veterum per oportunos saltus erexit et cautos. haec quoque civitates habet inter oppida quaedam ingentes Bostram et Gerasam atque Philadelphiam murorum firmitate cautissimas. hanc provinciae inposito nomine rectoreque adtributo obtemperare legibus nostris Traianus conpulit imperator incolarum tumore saepe contunso cum glorioso marte Mediam urgeret et Parthos.
+
+                Harum trium sententiarum nulli prorsus assentior. Nec enim illa prima vera est, ut, quem ad modum in se quisque sit, sic in amicum sit animatus. Quam multa enim, quae nostra causa numquam faceremus, facimus causa amicorum! precari ab indigno, supplicare, tum acerbius in aliquem invehi insectarique vehementius, quae in nostris rebus non satis honeste, in amicorum fiunt honestissime; multaeque res sunt in quibus de suis commodis viri boni multa detrahunt detrahique patiuntur, ut iis amici potius quam ipsi fruantur.
+
+                Homines enim eruditos et sobrios ut infaustos et inutiles vitant, eo quoque accedente quod et nomenclatores adsueti haec et talia venditare, mercede accepta lucris quosdam et prandiis inserunt subditicios ignobiles et obscuros.
             </blockquote>
         </div>
         <div class="col l6 m6 s12">
@@ -32,7 +37,7 @@ $last_books = getLastBooks();
 </div>
 </div> <!-- Close the first container -->
 
-<div class="center" id="AlertDiv"><h1><span class="bordered container lime lighten-5">Derniers Partages</span></h1></div>
+<div class="center" id="AlertDiv"><h1><span class="bordered lime lighten-5">Derniers Partages</span></h1></div>
     <div class="carousel">
         <?php
         foreach ($last_books as $key => $book) {
