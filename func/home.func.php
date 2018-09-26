@@ -30,7 +30,7 @@ function get_books() {
         $result[] = $rows;
 
         // Récupération des auteurs pour UNE BD !
-        // Vérifier si l'id du book en cours existe déjà dans result[] (éviter les doub/triplette de book)
+        // Vérifier si l'id du book en cours existe déjà dans result[] (éviter les doub/trip/lette de book)
         if(array_key_exists($rows->id, $idval)) {
             // on parcours le tableau résultat qui contient des objets book
             foreach ($result as $item => $index) {
@@ -47,7 +47,6 @@ function get_books() {
         } else {
             $idval[$rows->id] = $rows->aName;
         }
-
     }
 
     // accueil on garde les 5 derniers posted

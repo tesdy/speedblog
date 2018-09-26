@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dde86d74-4acf-4cf2-bc2e-595a13b268b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/21593989-872a-4cff-9a42-6c5c7e2a8aaa.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/21593989-872a-4cff-9a42-6c5c7e2a8aaa.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/ubuguy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/ubuguy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/speedblog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/speedblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/book.func.php" beforeDir="false" afterPath="$PROJECT_DIR$/func/book.func.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/func/home.func.php" beforeDir="false" afterPath="$PROJECT_DIR$/func/home.func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func/list.func.php" beforeDir="false" afterPath="$PROJECT_DIR$/func/list.func.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/book.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/book.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/template.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/template.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/topbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/topbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/mangaherosreduce.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/web/type1-Manga.jpeg" afterDir="false" />
+    </list>
+    <list id="7f7bdae3-2dda-4a4b-b9c7-8b41f8ce5ce6" name="Revert: Delete param.inc" comment="">
+      <change afterPath="$PROJECT_DIR$/func/param.inc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,30 +26,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="speedblog@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="speedblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="speedblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="speedblog: schema" type="c314c289:MysqlImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="speedblog@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="speedblog: schema" type="c314c289:MysqlImplModel$Schema" />
-        <item name="books: table" type="98d5ac3d:MysqlImplModel$Table" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -77,6 +44,7 @@
           <entry key="LICENSE" value="2" />
           <entry key="books" value="1" />
           <entry key="css" value="13" />
+          <entry key="gitignore" value="1" />
           <entry key="html" value="2" />
           <entry key="inc" value="3" />
           <entry key="jpeg" value="2" />
@@ -95,7 +63,7 @@
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="12" />
           <entry key="PHP" value="151" />
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Scratch" value="7" />
         </counts>
       </usages-collector>
@@ -103,10 +71,11 @@
         <counts>
           <entry key="css" value="2563" />
           <entry key="dummy" value="1" />
+          <entry key="gitignore" value="30" />
           <entry key="html" value="286" />
           <entry key="inc" value="30" />
           <entry key="js" value="1432" />
-          <entry key="php" value="14436" />
+          <entry key="php" value="14438" />
           <entry key="sql" value="316" />
           <entry key="txt" value="11" />
         </counts>
@@ -116,8 +85,8 @@
           <entry key="CSS" value="2563" />
           <entry key="HTML" value="287" />
           <entry key="JavaScript" value="1432" />
-          <entry key="PHP" value="14431" />
-          <entry key="PLAIN_TEXT" value="12" />
+          <entry key="PHP" value="14433" />
+          <entry key="PLAIN_TEXT" value="42" />
           <entry key="SQL" value="34" />
           <entry key="Scratch" value="316" />
         </counts>
@@ -134,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/book.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state>
               <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
             </state>
           </provider>
@@ -143,8 +112,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/book.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -152,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/func/list.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="218">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -161,8 +130,27 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/func/home.func.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="186">
-              <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+            <state relative-caret-position="326">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="uml://DATABASE/1a0c4604-6788-4b2f-9a9e-88e86e5a7ff1">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>DATABASE</ID>
+              <OriginalElement>1a0c4604-6788-4b2f-9a9e-88e86e5a7ff1</OriginalElement>
+              <nodes />
+              <notes />
+              <edges />
+              <settings layout="Hierarchic Group" zoom="0.7350194552529182" x="91.95584886324718" y="306.5219692959239" />
+              <SelectedNodes />
+              <Categories>
+                <Category>Key columns</Category>
+                <Category>Columns</Category>
+              </Categories>
             </state>
           </provider>
         </entry>
@@ -170,7 +158,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
+            <state relative-caret-position="390">
               <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
             </state>
           </provider>
@@ -179,11 +167,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="480">
               <caret line="32" column="100" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="100" />
-              <folding>
-                <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -237,6 +222,7 @@
         <option value="$PROJECT_DIR$/func/list.func.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/pages/template.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/func/home.func.php" />
       </list>
     </option>
@@ -293,27 +279,12 @@
             <path>
               <item name="speedblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="speedblog" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="speedblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="speedblog" type="462c0819:PsiDirectoryNode" />
               <item name="func" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="speedblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="speedblog" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="speedblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="speedblog" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="speedblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="speedblog" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -361,25 +332,25 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="102397000" />
+    <option name="totallyTimeSpent" value="102791000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="1105" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2524013" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25506938" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
       <window_info anchor="bottom" id="Database Changes" order="2" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.50053364" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="4" visible="true" />
       <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Run" order="8" />
-      <window_info active="true" anchor="bottom" id="Debug" order="9" sideWeight="0.4994664" visible="true" weight="0.55222225" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.4994664" weight="0.55222225" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
@@ -394,6 +365,32 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -439,7 +436,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/func/home.func.php</url>
-          <line>56</line>
+          <line>55</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
@@ -482,14 +479,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/error.php" />
     <entry file="file:///usr/share/phpmyadmin/db_structure.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -504,13 +493,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/param.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/func/param.inc" />
     <entry file="file://$PROJECT_DIR$/func/deux.func.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -571,13 +554,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://21593989-872a-4cff-9a42-6c5c7e2a8aaa/schema/speedblog/table/books">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://21593989-872a-4cff-9a42-6c5c7e2a8aaa/schema/speedblog/table/books" />
     <entry file="file://$PROJECT_DIR$/js/book.func.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -680,10 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#style#0;n#input#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#input#1;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -705,16 +678,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#a#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/func/book.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -732,34 +695,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/func/list.func.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
+        <state relative-caret-position="390">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/book.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state>
           <caret line="51" column="24" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="480">
           <caret line="32" column="100" selection-start-line="32" selection-start-column="100" selection-end-line="32" selection-end-column="100" />
-          <folding>
-            <element signature="n#style#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -767,16 +720,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/1a0c4604-6788-4b2f-9a9e-88e86e5a7ff1/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="15" lean-forward="true" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/book.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="14" lean-forward="true" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/func/list.func.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/func/home.func.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="46" selection-start-line="52" selection-start-column="46" selection-end-line="52" selection-end-column="46" />
+        <state relative-caret-position="326">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
         </state>
       </provider>
     </entry>
